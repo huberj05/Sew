@@ -1,0 +1,41 @@
+# Created by .ignore support plugin (hsz.mobi) + gam
+
+#node
+node_modules
+
+# all idea
+.idea/
+
+# Mac ds_store
+.DS_Store
+
+# CMake
+cmake-build-debug/
+
+## File-based project format:
+*.iws
+*.lnk
+*.url
+
+## GAM Files - begin
+/createURLFromGitConfig.py
+/createURLFromGitConfig.bat
+## GAM Files - end
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties

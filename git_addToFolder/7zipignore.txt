@@ -1,0 +1,5 @@
+*\vendor/
+*\.vscode/
+*\node_modules/
+7zipbackup.bat
+7zipignore.txt
