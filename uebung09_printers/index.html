@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="google" content="notranslate"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title id="myTitle">Uebung09_Printers</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="page-header" class="bg-dark text-white col-sm-12">
+                <h1 id="myHeading1" class="text-center">fooHeading</h1>
+            </header>
+            <div class="jumbotron bg-light">
+                <div>
+                    <!-- Beschriftung für das Eingabefeld -->
+                    <label for="inputHostName" class="form-label">Hostname:</label>
+                    <input type="text" id="inputHostName"/>
+                </div>
+                <div>
+                    <label for="inputMacAddress" class="form-label">MAC-Adresse:</label>
+                    <input type="text" id="inputMacAddress"/>
+                </div>
+                <div>
+                    <label for="inputIpAddress" class="form-label">ipAdress</label>
+                    <input type="text" id="inputIpAddress"/>
+                </div>
+                <div>
+                    <label for="inputMaxPaper" class="form-label">Maximales Papier</label>
+                    <input type="text" id="inputMaxPaper"/>
+                </div>
+                <div>
+                    <label for="inputSearchMac" class="form-label">Gesuchte MAC Adresse</label>
+                    <input type="text" id="inputSearchMac"/>
+                    <button id="btnSearchMac">Suchen</button>
+                </div>
+                <div>
+                    <div>
+                        <button id="btnAdd">Add</button>
+                        <button id="btnClear">Clear</button>
+                        <button id="btnList">Auflisten</button>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron bg-light">
+                <div id="output"></div>
+            </div>
+            <div class="jumbotron bg-light">
+                <div id="output2"></div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

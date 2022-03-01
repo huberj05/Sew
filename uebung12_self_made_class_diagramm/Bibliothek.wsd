@@ -1,0 +1,14 @@
+@startuml Bibliothek
+class Bibliothek {
++ Title
++ Autor
++ Number SideNumber
++ Quality
++ Date
++ BookType
++ constructor(Title, Autor, SideNumber, Quality, Date, BookType)
++ clear()
++ add()
++ search()
+}
+@enduml

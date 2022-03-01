@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title id="myTitle">Vorlage</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="myHeading1"></h1>
+      <div class="jumbotron">
+      <table > 
+      <tr> 
+       <td>
+       <div> Marke: </div>
+       <div><input type="text" id="brand"> </div>
+      </td>
+      <td>
+       <div> Modell: </div> 
+       <div><input type="text" id="model"> </div>
+       </td>
+       </tr><tr>
+       <td>
+       <div> Leistung (PS): </div> 
+       <div><input type="text" id="ps"> </div>
+       </td><td>
+       <div> Anzahl Räder:</div> 
+       <div> <input type="text" id="nrOfWheels"> </div>
+       </td></tr>
+       <tr><td>
+       <div> Maximalgeschwindigkeit: </div> 
+       <div><input type="text" id="vMax"> </div>
+       </td><td>
+       <div> Sprit-Typ: </div> 
+       <div><input type="text" id="fuelType"> </div>
+       </td></tr>
+       <tr><td>
+       <div> Max. Tankfüllung: </div> 
+       <div><input type="text" id="maxFuel"> </div>
+       </td><td>
+       <div> Kilometerstand: </div> 
+       <div><input type="text" id="distance"> </div>
+      </td><td>
+        <div> Spritverbrauch: </div> 
+        <div><input type="text" id="fuelconsumption"> </div>
+      </td><td>
+        <div> Getriebetyp: </div> 
+        <div><input type="text" id="transmissiontype"> </div>
+         </td></tr>
+         </table>
+     <p><p> <button id="addCar"> Hinzufügen </button>
+     <p><p> <button id="showCarInfos"> Fahrzeuge anzeigen </button>
+            <button id="searchCarModel"> Modell(e) suchen </button>
+      </div>
+      <div class="jumbotron">
+        <div id="output"></div>
+      </div>
+      <div class="jumbotron">
+        <div id="output2"></div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
