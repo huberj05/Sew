@@ -44,7 +44,7 @@ let sortedAnimals2 = animals.sort((a,b)=> a.animaletype.localeCompare(b.animalet
 // console.log(sortedAnimals2);
 
 //Erstellt neues Array mit allen Tiernamen
-let AnimalsArray = animals.map(x => x.name);
+let AnimalsArray = animals.map(a => a.name);
  //console.log(AnimalsArray);
 
 //Erhöht age um 1
