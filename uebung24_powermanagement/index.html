@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="google" content="notranslate"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title id="myTitle">Template</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="page-header" class="bg-dark text-white col-sm-12">
+                <h1 id="myHeading1" class="text-center">fooHeading</h1>
+            </header>
+            <h1>Powermanagement</h1>
+            <div class="jumbotron">
+                <div>
+                    <h6>Create new machine:</h6>
+                    <span>Name:
+                    </span>
+                    <input type="text" id="inputName"/>
+                    <span>Power:
+                    </span>
+                    <input type="text" id="inputPower"/>
+                    <span>Hours:
+                    </span>
+                    <input type="text" id="inputTime"/>
+                    <button id="btnCreateMachine">Create</button>
+                </br>
+            </br>
+            <h6>Run machine:</h6>
+            <span>Name:
+            </span>
+            <input type="text" id="inputRunName"/>
+            <span>Hours:
+            </span>
+            <input type="text" id="inputRunTime"/>
+            <button id="btnRunMachine">Run</button>
+        </br>
+    </br>
+    <h6>Delete machine:</h6>
+    <span>Name:
+    </span>
+    <input type="text" id="inputDeleteName"/>
+    <button id="btnDeleteMachine">Delete</button>
+</div>
+</br>
+</br>
+<div>
+  <h3>Search</h3>
+  <div style="float: left;">
+    <span>All Machines</span> <br>
+    <span>All Machine Names</span> <br>
+    <span>All Machines with Power grater than </span> <input id="inputPowerGreater" type="text"> <br>
+    <span>All Machine Names containing </span> <input id="inputNamesContaining" type="text"> <br>
+    <span>Average Power of all Machines</span> <br>
+    <span>Machines Sorted by Power Consumption descending</span>
+  </div>
+  <div style="float:right,">
+    <button id="btnAllMachines">Go!</button> <br>
+    <button id="btnAllMachineNames">Go!</button> <br>
+    <button id="btnPowerGreater">Go!</button> <br>
+    <button id="btnNamesContaining">Go!</button> <br>
+    <button id="btnAveragePower">Go!</button> <br>
+    <button id="btnSorted">Go!</button>
+  </div>
+</div>
+</div>
+<div class="jumbotron">
+<div id="outputResult"></div>
+</div>
+<script src="js/main.js"></script>
+</body>
+
+</html>
